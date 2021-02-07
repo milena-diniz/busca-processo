@@ -1,0 +1,22 @@
+.campo-busca {
+    border: 1px solid #cccccc;
+    box-shadow: 0px 5px 5px #cccccc;
+    width: 600px;
+}
+
+.campo-busca input {
+    border: 0;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 570px;
+}
+
+.campo-busca input:focus {
+    outline: none;
+}
+
+.campo-busca svg {
+    color: #757575;
+    cursor: pointer;
+}

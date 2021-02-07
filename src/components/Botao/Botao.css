@@ -1,0 +1,30 @@
+.botao {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 5px 5px #cccccc;
+    padding: 15px;
+    text-decoration: none;
+    color: #757575;
+    min-width: 120px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.botao:hover {
+    color: #005b95;
+    border-color: #005b95;
+}
+
+.botao:active, 
+.botao:focus {
+    outline: none;
+}
+
+.botao.botao-azul {
+    background-color: #005b95 ;
+    color: white;
+    border-color: #005b95;
+}

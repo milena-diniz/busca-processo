@@ -1,0 +1,49 @@
+.card-row {
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px #cccccc;
+    overflow: hidden;
+    color: #757575;
+    box-sizing: border-box;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.card-row.card-row-ativo {
+    border: 2px solid #005b95;
+    color: #005b95;
+}
+
+.card-row .card-column {
+    float: left;
+    width: 20%;
+}
+
+.card-row .card-column.card-column-descricao {
+    width: 40%;
+}
+
+.card-row .card-column .card-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.card-row .card-column .card-text {
+    margin: 0;
+}
+
+
+.card-row.card-row-resumido .card-column-descricao,
+.card-row.card-row-resumido .card-column-imagem {
+    display: none;
+}
+
+.card-row.card-row-resumido .card-column-numero,
+.card-row.card-row-resumido .card-column-assunto {
+    width: 50%;
+}
+
+.card-row.card-row-resumido .card-column-interessado { 
+    width: 100%;
+    margin-top: 15px;
+}

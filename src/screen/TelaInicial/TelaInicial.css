@@ -1,0 +1,29 @@
+.tela-inicial {
+    margin-top: 100px;
+}
+
+.tela-inicial h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #005b95;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tela-inicial p {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tela-inicial p a {
+    color: #005b95;
+    font-weight: bold;
+}
+
+.tela-inicial .campo-busca { 
+  position: relative;
+  left: 50%;
+  margin-left: -300px;  
+} 
